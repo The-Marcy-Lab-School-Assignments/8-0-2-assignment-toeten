@@ -132,3 +132,5 @@ out
 .env
 
 node_modules/
+
+config.js
