@@ -34,20 +34,20 @@ This assignment has 12 tasks and 1 bonus task:
 
 Before continuing, make sure that these tasks are completed!
 
-- [ ] Has a `server` folder with an `index.js` file and a `package.json` file inside
-- [ ] `package.json` has `express` and `dotenv` installed as a dependency and `nodemon` as a dev dependency
-- [ ] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
-- [ ] Environment variables are stored in the `.env` folder and `.env` is added to the `.gitignore` file
+- [x] Has a `server` folder with an `index.js` file and a `package.json` file inside
+- [x] `package.json` has `express` and `dotenv` installed as a dependency and `nodemon` as a dev dependency
+- [x] `package.json` has a `"dev"` script that uses `nodemon` and a `"start"` script that uses `node`
+- [x] Environment variables are stored in the `.env` folder and `.env` is added to the `.gitignore` file
 
 **Server/Frontend Application Technical Requirements**
 
-- [ ] In `index.js`, the `express()` function is used to create an `app`
-- [ ] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
-- [ ] The `app` listens on an available port (I recommend `8080`)
-- [ ] A `/api/gifs` endpoint exists. 
-- [ ] The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
-- [ ] The frontend `vite.config.js` file has been updated to enable proxy requests
-- [ ] The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
+- [x] In `index.js`, the `express()` function is used to create an `app`
+- [x] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
+- [x] The `app` listens on an available port (I recommend `8080`)
+- [x] A `/api/gifs` endpoint exists. 
+- [x] The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
+- [x] The frontend `vite.config.js` file has been updated to enable proxy requests
+- [x] The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
 - [ ] Bonus: The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
 
 **Deployment Technical Requirements**
