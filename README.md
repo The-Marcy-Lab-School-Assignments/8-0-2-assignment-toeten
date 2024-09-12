@@ -42,17 +42,17 @@ Before continuing, make sure that these tasks are completed!
 **Server/Frontend Application Technical Requirements**
 
 - [x] In `index.js`, the `express()` function is used to create an `app`
-- [] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
+- [x] The `express.static()` middleware is used to server the static assets in the React application's `dist/` folder.
 - [x] The `app` listens on an available port (I recommend `8080`)
 - [x] A `/api/gifs` endpoint exists. 
-- [] The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
+- [x] The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
 - [x] The frontend `vite.config.js` file has been updated to enable proxy requests
 - [ ] The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
 - [ ] Bonus: The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
 
 **Deployment Technical Requirements**
 
-- [ ] Your server is deployed and the link is added to this repo's README
+- [x] Your server is deployed and the link is added to this repo's README
 
 You got this!
 
